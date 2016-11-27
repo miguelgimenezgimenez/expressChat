@@ -1,0 +1,27 @@
+{
+  "name": "miguel",
+  "version": "1.0.0",
+  "description": "codeworks chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelgimenezgimenez/expressChat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Miguel Gimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelgimenezgimenez/expressChat/issues"
+  },
+  "homepage": "httnpm, ps://github.com/miguelgimenezgimenez/expressChat#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "moment": "^2.17.0"
+  }
+}

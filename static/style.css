@@ -1,0 +1,123 @@
+body,p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin:0;
+    color: lightgray;;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    color: lightgray;
+    margin: 0;
+}
+
+header {
+    height : 7em;
+    background-color : darkslategrey;
+    text-align:center;
+    width:80%;
+    float:right;
+    padding: 1%;
+    vertical-align: middle;
+
+}
+#sidebar{
+    width:16%;
+    background-color:darkcyan;
+    float:left;
+    position:absolute;
+    top:0;
+    bottom:0;
+    padding:1%;
+    color: white;
+}
+
+.chatWindow {
+    position:absolute;
+    right:0;
+    top:4.8em;
+    height: 400px;
+    bottom:0px;
+    background-color : #f9f8f8;
+    text-align:center;
+    width:80%;
+    padding: 1%;
+    overflow: scroll;
+
+}
+
+#messageBox {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 2em;
+    padding: 1%;
+    text-align:center;
+
+}
+.response {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin:10px 0;
+    padding: 0 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.channels {
+    margin: 25px 0;
+}
+
+.directMessages {
+
+}
+
+.userInfo {
+    height: 3em;
+}
+
+.messageBubble {
+    border : 1px darkcyan solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width : auto;
+    float: left;
+    color: #5890ad;
+    margin:10px 50px;
+    background-color: white;
+    clear: both;
+    /*box-shadow: 0px 0px 2px 2px cornflowerblue  ;*/
+    background-color: lightgray;
+
+}
+
+.messageBubble p {
+    font-size: x-small;
+    margin-top: 8px;
+    color: #888888;
+}
+.user {
+    float: right;
+    /*margin-right:30px;*/
+    /*box-shadow: 0px 0px 2px 2px cornflowerblue  ;*/
+
+
+
+}
+
+
+#textbox {
+    border : 1px lightgray solid;
+    border-radius: 5px;
+    width: 95%;
+    padding: 0.5% 0.5%;
+}
